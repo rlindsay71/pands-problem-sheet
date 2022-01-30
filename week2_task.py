@@ -14,7 +14,8 @@ myHeightsquared = myHeight ** 2
 
 myBMI = myWeight // myHeightsquared
 
-print(myBMI)
+print(" Your BMI is " + str(myBMI))
+
 
 
 
