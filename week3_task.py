@@ -4,7 +4,7 @@
 # https://realpython.com/reverse-string-python/#reversing-strings-through-slicing
 
 
-txt = input("please enter a sentence") 
+txt = input("please enter a sentence:\n") 
 
 reversetxt = txt [-2::-2]
 
