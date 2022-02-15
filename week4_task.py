@@ -8,7 +8,7 @@
 #  Resources:  www.w3schools.org
 #              week 4 videos and labs
 
-x = int(input("Please enter a positive integer number"))
+x = int(input("Please enter a positive integer number:\t"))
 print(x)
 
 while x > 1:
