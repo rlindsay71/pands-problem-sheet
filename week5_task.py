@@ -11,7 +11,7 @@ from datetime import datetime
 
 whichday = datetime.today().isoweekday()
 
-if whichday < 5:
+if whichday < 6:
      print(" Yes, sadly its a weekday and you don't get a lie on")
 else:
      print("Yahoo!  its the weekend and I get to lie on")
