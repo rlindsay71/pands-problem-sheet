@@ -16,7 +16,8 @@ def findnumberroot(number, rootcalc = 100):
     return number
 
 
-a=int(input("Please enter a number "))
+a=int(input("Please enter a positive number "))
 
-print("The square root of this number is: ",findnumberroot(a))
+print("The square root of", a ,  "is",findnumberroot(a))
+
 
