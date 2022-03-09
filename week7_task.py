@@ -25,16 +25,3 @@ print("The number of instances of the letter e is: ", lettercounter)
 
 
 
-#def letterCounter(fileName, letter):
-    # open file in read mode
-   # file = open(fileName, 'r')
- 
-    # store content of the file in a variable
-    #TextFile = file.read()
- 
-    # using count()
-    #return TextFile.count(letter)
- 
- 
-# code to reference the function and display the letter count
-#print(letterCounter('gfg.txt', 'f'))
