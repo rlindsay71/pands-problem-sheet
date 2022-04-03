@@ -1,7 +1,7 @@
 # This program is for calculating a persons Body Mass Index (BMI)
 # based on their weight in KG and height in meters.
 # Author : Rachel Lindsay
-# resources:  
+# Resources:  
 # https://www.calculator.net/bmi-calculator.html
 # https://www.w3resource.com/python-exercises/python-basic-exercise-66.php
 # https://docs.python.org/3/tutorial/inputoutput.html
