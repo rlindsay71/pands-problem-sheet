@@ -7,7 +7,7 @@
 # https://docs.python.org/3/tutorial/inputoutput.html
 
  
- # The code below asks the user to input their height(kg) and weight(m) and assigns them to variables.
+ # The code below asks the user to input their height(M) and weight(KG) and assigns them to variables.
 
 myWeight = float(input(" what is your weight in kilograms? "))
 myHeight = float(input ("what is your height in meters? "))

@@ -1,23 +1,28 @@
-# The following program asks the user to input a number and returns its square root.
+# The following program asks the user to input a postive number and returns its square root.
 # Resource:  https://www.goeduhub.com
+# https://thirumalai2024.medium.com/python-program-to-find-square-root-of-the-number-using-newtons-method-937c0e732756
 # Author Rachel Lindsay
 
 
-def findnumberroot(number, rootcalc = 100):
 
-    a = float(number) 
+def numberSqrRoot(a):
 
-    for i in range(rootcalc): 
+    # the folowing code uses a while loop to iterate through an approximate
+    # result and a result from newtons formula, until both results have reached the closed level of precision
+    # i.e are equal so the code knows it has reached the correct square root result.
+    # when this stage is reached, the number that the user inputs divided by 2 (approxnbr) will be equal 
+    # to the result from newtons formula (betternbr) and the loop is finished and returns the correct result
 
-# The following code calculates the square root using newtons method
+    approxnbr = 0.5 * a
+    betternbr = 0.5 * (approxnbr + a / approxnbr)
+    
+    while betternbr != approxnbr:
+        approxnbr = betternbr
 
-        number = 0.5 * (number + a / number) 
+        betternbr =0.5*(approxnbr + a  / approxnbr)
+    return approxnbr
 
-    return number
+a = int(input("Please enter a positive number "))
 
-
-a=int(input("Please enter a positive number "))
-
-print("The square root of", a ,  "is",findnumberroot(a))
-
+print("The square root of", a ,  "is",numberSqrRoot(a))
 
