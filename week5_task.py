@@ -1,5 +1,6 @@
 # This program detects whether today is a weekday or not
-# resource delftstack.com
+# resource https://www.delftstack.com/howto/python/python-datetime-day-of-week/#:~:text=In%20Python%2C%20weekday()%20can,0%20and%20Sunday%20is%206.
+# https://stackoverflow.com/questions/9847213/how-do-i-get-the-day-of-week-given-a-date
 # author:  Rachel Lindsay
 
 # The following code imports the datetime module
